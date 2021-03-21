@@ -12,13 +12,15 @@ training 3 kinds of classes independently, and then multiply their probability t
 based on sentensepiece 
 
 # DOCKER
-* docker build:
-
+* docker build
+```
     docker build -t nlp_mz_yhstudy:latest .
+```
 
 * make docker container:
-
+```
     docker run -it --name yhstudy -v (your directory path):/workspace nlp_mz_yhstudy /bin/bash
+```
 
 # Results
 71.868%
