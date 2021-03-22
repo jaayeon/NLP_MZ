@@ -6,6 +6,7 @@ using KcBERT to intent classification in self-driven car system
 
 # Data
 targets : 대분류(_large.txt) / 중분류(_mid.txt) / 소분류(_small.txt)
+
 training 3 kinds of classes independently, and then multiply their probability to get final classes
 
 # Tokenizer
